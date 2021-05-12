@@ -1,0 +1,11 @@
+server:
+  port: 8080
+  error:
+    whitelabel:
+      enabled: false
+  tomcat:
+    uri-encoding: utf-8
+    max-connections: 20
+spring:
+  thymeleaf:
+    cache: false
